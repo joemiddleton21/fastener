@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Fastener Management System</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+              crossorigin="anonymous" >
+    </head>
+    <body>
+        <div class="container">
+        <h1>Fastener Management System</h1>
+        <hr>
+        <h2>Add Fastener</h2>
+        <br>
+        <form action="#" th:action="@{/saveFastener}" th:object="${fastener}" method="POST">
+        <input type="text" th:field="*{fastenerType}" placeholder="Fastener Type" 
+               required class="form-control mb-4 col-4">
+        <input type="text" th:field="*{threadType}" placeholder="Thread Type" 
+               required class="form-control mb-4 col-4">       
+        <input type="text" th:field="*{threadDesc}" placeholder="Thread Description" 
+               required class="form-control mb-4 col-4">         
+        <input type="text" th:field="*{threadLength}" placeholder="Thread Length" 
+               required class="form-control mb-4 col-4">                
+        <button type="submit" class="btn btn-info col-2">Add Fastener</button>
+        </form>
+        <hr>
+        <a th:href="@{/}"> Back to Fastener List</a>
+    </div>
+    </body>
+</html>
