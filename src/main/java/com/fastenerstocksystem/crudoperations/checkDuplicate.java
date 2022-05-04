@@ -7,7 +7,7 @@
 package com.fastenerstocksystem.crudoperations;
 
 import java.io.FileNotFoundException;
-import static java.lang.System.exit;
+//import static java.lang.System.exit;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;

@@ -5,15 +5,14 @@
  */
 package com.fastenerstocksystem.crudoperations;
 
-import java.io.FileInputStream;
+//import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.InputStream;
+//import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.text.ParseException;
-import com.objectoriented.crudoperations.CheckDuplicate;
+//import java.text.ParseException;
 import static java.lang.System.exit;
 /**
  *
