@@ -11,3 +11,10 @@ public class FastenerstockApplication {
 	}
 
 }
+
+//    <dependency>
+//        <groupId>com.lecture</groupId>
+//        <artifactId>Lecture</artifactId>
+//      <version>1.0-SNAPSHOT</version>
+//      <type>jar</type>
+//    </dependency>
